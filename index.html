@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    <script src="https://kit.fontawesome.com/52e3edd234.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" />
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a>
+
+                    </li>
+                    <li>
+                        <a href="#about">About me</a>
+
+                    </li>
+
+                    <li>
+                        <a href="#services">Services</a>
+
+                    </li>
+                    <li>
+                        <a href="#portfolio">My Work</a>
+
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+
+                    </li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hello, this is Sara<br />I Can communicate with over <span>2.6 Billion people</span> <br />around the world.</h1> 
+                <p>
+                    From a French translator and journalist, to lead the French
+                    team at AJEL<br />newspaper, with more than seven years of experience,<span> I can translate<br /> any written or audible content between Arabic, English, and French.</span>
+                </p>
+            </div>
+
+        </div>
+       
+        
+    </div>
+
+    
+    <!---------------------------------------about--------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="sub-sub">
+                        Arabic is my native language, however, translation has been my passion since childhood, I started learning French since I was 4 years old in school, and the dream of being a translator has been growing till I fulfilled it by studying French language in college, also learning the English language has started from a very young age as I was always surrounded by British family members, also by traveling to the UK which allowed me to communicate with the culture closely.
+                        After graduation I started my career as a journalist and editor at "al ain" newspaper, which led me to a bigger opportunity as the French team leader at "ajel" newspaper,<a> my goal in translation is to be able to deliver the idea in the most accurate yet simple way.</a>
+
+                    </p>
+
+                    <div class="tab-titles">
+                        
+
+                        
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>"
+
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Additional Skills</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li>
+                                <span>April 2020 - June 2021</span><br />French team manager at AJEL Newspaper
+                            </li>
+                            <li>
+                                <span>Feb 2018 - March 2020</span><br />French translator and journalist at AL AIN Newspaper
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                           
+                            <li>
+                                <span>2016</span><br />Bachelor's Degree in French Language,<br />Faculty of Alsun, Ain Shams University, Egypt.
+                            </li>
+                        </ul>
+                    </div><div class="tab-contents" id="skills">
+                        <ul>
+                           
+                            <li>
+                                <span>Adobe Premiere</span><br />writing captions on videos in Arabic, French, or English.
+                                
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------Services-------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div opacity=".1" class="services-list">
+                <div>
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                    <h2>Translations</h2>
+
+                    <p>
+                        "I translate
+                        any written or audible content between Arabic, English, and French.
+                    </p>
+                    
+                </div>  <div>
+                    <i class="fa-sharp fa-solid fa-microphone-lines"></i>
+                    <h2>Voice transcription</h2>
+                    <p>
+                        "I convert any audio file to text, delivered as PDF, DOC, or any format.
+                    </p>
+                
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------Work------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-2.png" />
+                    <div class="layer">
+                        <h3>Vitamin B12 deficiency may lead to<br /> major neurological problems</h3>
+                        <p>Arabic and English PDF file </p>
+                        <a href="pdf/Arabic-English.pdf" target="_blank"> <i class="fa-solid fa-file-pdf"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png" />
+                    <div class="layer">
+                        <h3>es attentats de Christchurch,, bilan du ministère de l'étranger néo-zélandais</h3>
+                        <p>English audio, French subtitles </p>
+                        <a href="videos/video-1.mp4" target="_blank"> <i class="fa-solid fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" />
+                    <div class="layer">
+                        <h3>دراسة تحدد نوع من المشروبات يساعد <br />في تقليل دهون البطن في وقت قياسي</h3>
+                       
+                        <p>Arabic and French PDF file </p>
+                        <a href="pdf/Arabic-French.pdf" target="_blank"> <i class="fa-solid fa-file-pdf"></i></a>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------Contact-------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fas fa-paper-plane"> </i> sarawords0@gmail.com </p>
+                    <!-- <p><i class="fa-solid fa-phone"></i>+2 0111 487 2222</p> -->
+                    <div class="social-icons">
+                        <!--        <a href=""><i class="fa-brands fa-behance"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>  -->
+                    </div>
+                    <a href="pdf/Sara Ahmed.pdf" target="_blank" class="btn"> <b>View My CV</b></a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input type="email" name="E-mail" placeholder="Your E-mail" required />
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit"><b>Submit</b></button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu() {
+            sidemenu.style.right = "0";
+        } function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxYCos0W_mmNS7zItoAdpcXDQtUQUiZUA92hCzfddttsppMyao1SBpyvq2PppTPBqdCmA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML =""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
